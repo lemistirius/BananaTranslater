@@ -1,0 +1,50 @@
+:root{
+    --primary-color : #ffac28;
+    --secondary-color:#ffca3f;
+    --styling-color:#33322e;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Space from this element (entire page) and others*/
+    padding: 0; /*space from content and border*/
+    border: solid blue;
+    border-width: thin;
+    overflow:hidden;
+    display:block;
+    box-sizing: border-box;
+}
+header{
+  
+    background-color: #ffac28;
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 1%;
+    padding: 1%;
+}
+textarea{
+    width: 90vw;
+    height: 10vh;
+    padding: 1rem 1rem;
+    margin: 1rem 2rem;
+    display: block;
+}
+footer{
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffac28;
+    text-align: center;
+
+   
+
+
+}
